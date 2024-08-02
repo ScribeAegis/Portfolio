@@ -1,6 +1,6 @@
 # Jason's Portfolio
 
-Welcome to my portfolio! This site showcases my skills, projects, and experience as a developer.
+Welcome to my portfolio!
 
 ## Contents
 
@@ -36,19 +36,19 @@ You can reach out to me through the contact form provided here. The form uses Fo
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/ScribeAegis/Portfolio.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repo-name
+    cd Portfolio
     ```
 
 3. Open `index.html` in your web browser to view the portfolio.
 
 ## Contact
 
-For any inquiries, please feel free to reach out to me at my email address: [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please feel free to reach out to me.
 
 ## License
 
