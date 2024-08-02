@@ -567,3 +567,16 @@ img {
     width: 450px;
   }
 }
+.work-description {
+  text-align: center; /* Centers the text within the paragraph */
+  margin: 0 auto; /* Centers the paragraph within its container */
+  max-width: 800px; /* Limits the width for readability */
+  padding: var(--mb-2); /* Adds some padding for spacing */
+  line-height: 1.6; /* Improves readability with line height */
+}
+@media screen and (max-width: 576px) {
+  .work-description {
+      max-width: 90%; /* Adjust max width for smaller screens */
+      padding: var(--mb-4); /* Add more padding if needed */
+  }
+}
