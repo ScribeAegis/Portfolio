@@ -322,22 +322,22 @@ img {
   z-index: var(--z-back);
 }
 
+/* Set the width according to the specified skill percentage */
 .skills__html {
-  width: 90%; /* Set to 90% */
+  width: 90%; /* HTML: 90% */
 }
 
 .skills__js {
-  width: 80%; /* Set to 80% */
+  width: 80%; /* JavaScript: 80% */
 }
 
 .skills__css {
-  width: 75%; /* Set to 75% */
+  width: 75%; /* CSS: 75% */
 }
 
 .skills__python {
-  width: 70%; /* Set to 70% */
+  width: 70%; /* Python: 70% */
 }
-
 
 .skills__img {
   border-radius: 0.5rem;
