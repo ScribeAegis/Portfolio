@@ -323,24 +323,21 @@ img {
 }
 
 .skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
+  width: 90%; /* Set to 90% */
 }
 
 .skills__js {
-  width: 65%;
+  width: 80%; /* Set to 80% */
 }
 
-.skills__ux {
-  width: 85%;
+.skills__css {
+  width: 75%; /* Set to 75% */
 }
 
 .skills__python {
-  width: 50%; /* Adjust width based on skill level */
+  width: 70%; /* Set to 70% */
 }
+
 
 .skills__img {
   border-radius: 0.5rem;
