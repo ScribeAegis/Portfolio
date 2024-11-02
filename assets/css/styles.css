@@ -322,23 +322,6 @@ img {
   z-index: var(--z-back);
 }
 
-/* Set the width according to the specified skill percentage */
-.skills__html {
-  width: 90%; /* HTML: 90% */
-}
-
-.skills__js {
-  width: 80%; /* JavaScript: 80% */
-}
-
-.skills__css {
-  width: 75%; /* CSS: 75% */
-}
-
-.skills__python {
-  width: 70%; /* Python: 70% */
-}
-
 .skills__img {
   border-radius: 0.5rem;
 }
@@ -577,3 +560,82 @@ img {
       padding: var(--mb-4); /* Add more padding if needed */
   }
 }
+
+/*===== CERTIFICATIONS SECTION =====*/
+.certifications {
+  padding-top: var(--mb-5);
+  padding-bottom: var(--mb-5);
+  text-align: center;
+}
+
+.certification__item {
+  margin-bottom: var(--mb-4);
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+.certification__item:hover {
+  transform: translateY(-10px);
+}
+
+.certification__img {
+  width: 120px;
+  margin: 0 auto var(--mb-2); /* Center the image and add bottom margin */
+}
+
+.certification__title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
+
+.certification__description {
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-4);
+}
+
+.certification__button {
+  padding: 0.5rem 1.5rem;
+  background-color: var(--first-color);
+  color: #fff;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.certification__button:hover {
+  background-color: hsl(var(--hue-color), 89%, 50%);
+}
+
+.certification__link {
+  display: block; /* Ensure it takes full width */
+  text-align: center; /* Center align text */
+  font-size: var(--smaller-font-size);
+  color: var(--first-color);
+  text-decoration: underline;
+  margin-top: 0.5rem;
+  transition: color 0.3s;
+}
+
+.certification__link:hover {
+  color: hsl(var(--hue-color), 89%, 50%);
+}
+
+.work-description {
+  text-align: center; /* Centers the text within the paragraph */
+  margin: 0 auto; /* Centers the paragraph within its container */
+  max-width: 800px; /* Limits the width for readability */
+  padding: var(--mb-2); /* Adds some padding for spacing */
+  line-height: 1.6; /* Improves readability with line height */
+}
+
+@media screen and (max-width: 576px) {
+  .work-description {
+      max-width: 90%; /* Adjust max width for smaller screens */
+      padding: var(--mb-4); /* Add more padding if needed */
+  }
+}
+
