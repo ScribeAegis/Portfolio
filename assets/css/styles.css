@@ -563,79 +563,68 @@ img {
 
 /*===== CERTIFICATIONS SECTION =====*/
 .certifications {
-  padding-top: var(--mb-5);
-  padding-bottom: var(--mb-5);
-  text-align: center;
+    padding-top: var(--mb-5);
+    padding-bottom: var(--mb-5);
+    text-align: center;
+}
+
+.certifications__container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items in the container */
+    padding: 0; /* Remove default padding if needed */
 }
 
 .certification__item {
-  margin-bottom: var(--mb-4);
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  padding: 2rem;
-  transition: 0.3s;
+    margin-bottom: var(--mb-4);
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    transition: 0.3s;
+    text-align: center; /* Center align text within the item */
 }
 
 .certification__item:hover {
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .certification__img {
-  width: 120px;
-  margin: 0 auto var(--mb-2); /* Center the image and add bottom margin */
-}
-
-.certification__title {
-  font-size: var(--h2-font-size);
-  color: var(--first-color);
-  margin-bottom: var(--mb-2);
+    width: 120px;
+    max-width: 100%; /* Ensure it doesn't exceed the container */
+    margin: 0 auto var(--mb-2); /* Center the image and add bottom margin */
 }
 
 .certification__description {
-  font-size: var(--normal-font-size);
-  margin-bottom: var(--mb-4);
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-4);
 }
 
 .certification__button {
-  padding: 0.5rem 1.5rem;
-  background-color: var(--first-color);
-  color: #fff;
-  font-weight: var(--font-semi);
-  border-radius: 0.5rem;
-  text-transform: uppercase;
-  transition: 0.3s;
+    display: inline-block; /* Ensure it takes only necessary space */
+    margin: 0 auto; /* Center the button */
+    padding: 0.5rem 1.5rem;
+    background-color: var(--first-color);
+    color: #fff;
+    font-weight: var(--font-semi);
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
 
 .certification__button:hover {
-  background-color: hsl(var(--hue-color), 89%, 50%);
+    background-color: hsl(var(--hue-color), 89%, 50%);
 }
 
 .certification__link {
-  display: block; /* Ensure it takes full width */
-  text-align: center; /* Center align text */
-  font-size: var(--smaller-font-size);
-  color: var(--first-color);
-  text-decoration: underline;
-  margin-top: 0.5rem;
-  transition: color 0.3s;
+    display: block; /* Ensure it takes full width */
+    text-align: center; /* Center align text */
+    font-size: var(--smaller-font-size);
+    color: var(--first-color);
+    text-decoration: underline;
+    margin-top: 0.5rem;
+    transition: color 0.3s;
 }
 
 .certification__link:hover {
-  color: hsl(var(--hue-color), 89%, 50%);
+    color: hsl(var(--hue-color), 89%, 50%);
 }
-
-.work-description {
-  text-align: center; /* Centers the text within the paragraph */
-  margin: 0 auto; /* Centers the paragraph within its container */
-  max-width: 800px; /* Limits the width for readability */
-  padding: var(--mb-2); /* Adds some padding for spacing */
-  line-height: 1.6; /* Improves readability with line height */
-}
-
-@media screen and (max-width: 576px) {
-  .work-description {
-      max-width: 90%; /* Adjust max width for smaller screens */
-      padding: var(--mb-4); /* Add more padding if needed */
-  }
-}
-
