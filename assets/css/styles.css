@@ -628,3 +628,10 @@ img {
 .certification__link:hover {
     color: hsl(var(--hue-color), 89%, 50%);
 }
+
+.certifications__message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333; /* Adjust color as needed to match your theme */
+}
